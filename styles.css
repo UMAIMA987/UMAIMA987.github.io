@@ -1,72 +1,107 @@
-/* Basic reset to remove default styling */
+/* Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #f4f4f4;
-  color: #333;
-  padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
+/* Container */
 .container {
-  max-width: 800px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
+/* Header */
 header {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  margin-bottom: 20px;
+    background: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
 }
 
 header h1 {
-  font-size: 2.5em;
-  margin: 0;
+    font-size: 3em;
+    margin-bottom: 10px;
 }
 
-.content {
-  background: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+header h1 span {
+    color: #00aced;
 }
 
-h2 {
-  color: #333;
-  margin-bottom: 10px;
+header p {
+    font-size: 1.2em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+/* Section Titles */
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
 }
 
-ul li {
-  background: #f4f4f4;
-  padding: 10px;
-  margin-bottom: 5px;
-  border-radius: 5px;
+/* About Section */
+.about, .experience, .portfolio, .contact, .connect {
+    padding: 60px 0;
+    background: #fff;
+    margin-bottom: 20px;
 }
 
-a {
-  color: #0066cc;
-  text-decoration: none;
+.about p, .portfolio p, .contact p, .connect p {
+    text-align: center;
+    font-size: 1.2em;
 }
 
-a:hover {
-  text-decoration: underline;
+.about a, .portfolio a, .contact a, .connect a {
+    color: #00aced;
+    text-decoration: none;
+    font-weight: bold;
 }
 
+.about a:hover, .portfolio a:hover, .contact a:hover, .connect a:hover {
+    text-decoration: underline;
+}
+
+/* Experience Section */
+.experience ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.experience ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.experience ul li a {
+    color: #00aced;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experience ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
 footer {
-  text-align: center;
-  margin-top: 20px;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
 }
