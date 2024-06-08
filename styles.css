@@ -94,6 +94,37 @@ section h2 {
     text-decoration: underline;
 }
 
+/* Projects Section */
+.projects .project {
+    background: #f4f4f4;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.projects .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.projects .project p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.projects .project .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00aced;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects .project .button:hover {
+    background: #0084b4;
+}
+
 /* Footer */
 footer {
     background: #333;
